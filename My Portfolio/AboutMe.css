@@ -1,0 +1,74 @@
+/* Rishika Kumari 2341011287 */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    font-size: 20px;
+    margin: 0;
+    background-image: url(https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvcm0yODMtYWRqLTAxM18yLmpwZw.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;    
+}
+header {
+    background-color: rgb(21, 50, 136);
+    color: white;
+    text-align: center;
+    padding: 15px;
+    position: sticky;
+    top: 0;
+}
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+nav ul li {
+    margin: 0 10px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+section {
+    max-width: 1800px;
+    padding: 100px;
+    text-align: center;
+}
+section h3 {
+    color: rgb(21, 50, 136);
+}
+img {
+    border-radius: 50%; 
+    margin-right: 20px;
+    width: 150px;
+    height: 150px;
+    float: left;
+}
+ul {
+    list-style: none;
+     padding: 0;
+    margin-top: 20px;}
+ul ul {
+    margin-left: 15px; 
+    padding-left: 0; 
+}
+
+ul ul li {
+    margin: 5px 0;
+}
+#skills {
+    display: flex;
+    max-width: 1000px;
+    justify-content: space-between;
+    padding-left:  50px;
+    padding-right: 50px;   
+}
+  
+
+
+
+
+

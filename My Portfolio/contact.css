@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    font-size: 20px;
+    margin: 0;
+    background-image: url(https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvcm0yODMtYWRqLTAxM18yLmpwZw.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header {
+    background-color: rgb(21, 50, 136);
+    color: white;
+    text-align: center;
+    padding: 15px;
+    position: sticky;
+    top: 0;
+}
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+nav ul li {
+    margin: 0 10px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+h1, h2 {
+    text-align: center;
+}
+h2 {
+    color: rgb(21, 50, 136);
+}
+.box {
+    background-color: white;
+    width: 30%;
+    margin: 40px auto;
+    border-radius: 10px;
+    padding: 15px;   
+}
+input, textarea {
+    width: 80%;
+    margin: 8px 5%;
+    padding: 10px;
+    border: 0;
+    border-radius: 4px;
+    background-color: rgba(128, 128, 128, 0.139);
+    font-size: 15px;
+}
+button {
+    background-color: rgb(21, 50, 136);
+    color: white;
+    border: 1px solid rgb(33, 63, 154);
+    border-radius: 4px;
+    padding: 5px;
+    width: 85%;
+    margin: 10px 5%;
+}
+
+

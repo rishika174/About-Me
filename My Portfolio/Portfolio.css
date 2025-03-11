@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    background-image: url(https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvcm0yODMtYWRqLTAxM18yLmpwZw.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;   
+}
+header {
+    background-color: rgb(21, 50, 136);
+    color: white;
+    text-align: center;
+    padding: 15px;
+    position: sticky;
+    top: 0;
+}
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+nav ul li {
+    margin: 0 10px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+section {
+    text-align: center;
+    padding: 20px;
+}
+.projects {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+    padding: 0 10px;
+}
+.project {
+    border: 1px solid #ccc;
+    padding: 15px;
+    border-radius: 20px;
+    background-color: #fff;
+}
+.project h3 {
+    margin: 0;
+    font-size: 18px;
+    color: rgb(21, 50, 136);
+}
+.project p {
+    font-size: 14px;
+    color: #333;
+}
+.project a {
+    text-decoration: none;
+    color: rgb(21, 50, 136);
+    font-weight: bold;
+}
+
+
+
